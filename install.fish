@@ -4,3 +4,4 @@ set script (status --curent-filename)
 set repo_dir (cd (dirname "$script"); and pwd)
 
 ln -sf "$repo_dir/wezterm.lua" "$HOME/.wezterm.lua"
+ln -sf "$repo_dir/nvim" "$HOME/.config/nvim"
